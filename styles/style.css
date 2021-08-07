@@ -573,3 +573,31 @@ footer {
 .type-black {
   color: #111111;
 }
+
+/* QUOTE */
+.quote-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.quote {
+  background: #4998a9;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.quote-triangle {
+  width: 60px;
+  height: 30px;
+  border-bottom: solid 30px #4998a9;
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
+  margin: 0 auto;
+}
+
+.blogs-container {
+  background: #4998a9;
+}
