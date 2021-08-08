@@ -1,5 +1,5 @@
 /* Import Google Font */
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;600;700&display=swap");
 
 /* Reset CSS */
 
@@ -582,11 +582,17 @@ footer {
 
 .quote {
   background: #4998a9;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
   color: #ffffff;
-  text-align: center;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .quote-triangle {
@@ -600,4 +606,12 @@ footer {
 
 .blogs-container {
   background: #4998a9;
+}
+
+.quote-author {
+  color: #a5f3fd;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  padding-top: 30px;
 }
